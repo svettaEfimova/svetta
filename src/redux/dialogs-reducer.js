@@ -1,22 +1,23 @@
 const UPDATE_NEW_MESSAGE_BODY = 'UPDATE_NEW_MESSAGE_BODY';
 const SEND_MESSAGE = 'SEND_MESSAGE';
+
 let initialState = {
     dialogs: [
         {id: 1, name: 'Dimych'},
         {id: 2, name: 'Andrew'},
         {id: 3, name: 'Sveta'},
         {id: 4, name: 'Sasha'},
-        {id: 5, name: 'Viktor'},
-        {id: 6, name: 'Valera'}
+        {id: 5, name: 'V'},
+        {id: 6, name: 'jksljcls'}
     ],
     messages: [
         {id: 1, message: 'Hi'},
-        {id: 2, message: 'How is your it-kamasutra?'},
+        {id: 2, message: 'hdcjsclkdsjcl'},
         {id: 3, message: 'Yo'},
-        {id: 4, message: 'Yo'},
-        {id: 5, message: 'Yo'}
+        {id: 4, message: 'ijxsall'},
+        {id: 5, message: 'hi'}
     ],
-    newMessageBody: ""
+    newMessageBody: ''
 };
 
 const dialogsReducer = (state = initialState, action) => {
